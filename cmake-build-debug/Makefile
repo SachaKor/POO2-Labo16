@@ -204,6 +204,33 @@ Person.cpp.s:
 	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Person.cpp.s
 .PHONY : Person.cpp.s
 
+Role.o: Role.cpp.o
+
+.PHONY : Role.o
+
+# target to build an object file
+Role.cpp.o:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Role.cpp.o
+.PHONY : Role.cpp.o
+
+Role.i: Role.cpp.i
+
+.PHONY : Role.i
+
+# target to preprocess a source file
+Role.cpp.i:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Role.cpp.i
+.PHONY : Role.cpp.i
+
+Role.s: Role.cpp.s
+
+.PHONY : Role.s
+
+# target to generate assembly for a file
+Role.cpp.s:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Role.cpp.s
+.PHONY : Role.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... Person.o"
 	@echo "... Person.i"
 	@echo "... Person.s"
+	@echo "... Role.o"
+	@echo "... Role.i"
+	@echo "... Role.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,13 +6,14 @@
 #define POO2_LABO16_CONTAINER_H
 
 #include <string>
+#include "Person.h"
 
 class Container {
 private:
+    std::list<Person> persons;
     std::string name;
 public:
     Container(std::string name);
-
 };
 
 class Boat : public Container {

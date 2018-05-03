@@ -9,14 +9,14 @@
 #include <string>
 #include <list>
 
-enum Role {CHILD, PARENT, POLICEMAN, THIEF};
+#include "Role.h"
+
 enum Gender {FEMALE, MALE};
 
 class Person {
 private:
-    std::list<Role> role;
-    std::string name;
-    Gender gender;
+    const std::list<Role> roles;
+    std::string _name;
 public:
     bool canDrive();
 };

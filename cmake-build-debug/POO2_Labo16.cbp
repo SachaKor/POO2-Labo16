@@ -100,6 +100,12 @@
 		<Unit filename="/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Person.h">
 			<Option target="POO2_Labo16"/>
 		</Unit>
+		<Unit filename="/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Role.cpp">
+			<Option target="POO2_Labo16"/>
+		</Unit>
+		<Unit filename="/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Role.h">
+			<Option target="POO2_Labo16"/>
+		</Unit>
 		<Unit filename="/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/main.cpp">
 			<Option target="POO2_Labo16"/>
 		</Unit>

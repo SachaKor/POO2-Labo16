@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/POO2_Labo16.dir/Container.cpp.o"
   "CMakeFiles/POO2_Labo16.dir/Person.cpp.o"
   "CMakeFiles/POO2_Labo16.dir/Controller.cpp.o"
+  "CMakeFiles/POO2_Labo16.dir/Role.cpp.o"
   "POO2_Labo16.pdb"
   "POO2_Labo16"
 )
