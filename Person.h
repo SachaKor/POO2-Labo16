@@ -28,7 +28,7 @@ public:
      * @param role role to check
      * @return true if the person is a holder of the role
      */
-    bool hasRole(Role role) const;
+    bool hasRole(const Role& role) const;
 };
 
 

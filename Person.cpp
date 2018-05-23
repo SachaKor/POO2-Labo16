@@ -13,7 +13,7 @@ bool Person::canDrive() const {
     return false;
 }
 
-bool Person::hasRole(Role role) const {
+bool Person::hasRole(const Role& role) const {
     for (auto r : roles) {
         if(r == role) {
             return true;

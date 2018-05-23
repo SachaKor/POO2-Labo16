@@ -30,5 +30,6 @@ friend bool operator==(const Role& left, const Role& right) {
 }
 
 bool Role::cannotStayWith(const Role& role, const Container& container) const {
+
     return false;
 }
