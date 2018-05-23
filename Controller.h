@@ -31,10 +31,12 @@ private:
     };
 
 public:
+    Controller();
     void showMenu() const;
     void executeCommand();
     void display();
     void nextTurn();
+    void addPerson(Person* person);
 };
 
 

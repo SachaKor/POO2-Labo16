@@ -13,10 +13,12 @@
 class Container {
 private:
     std::string name;
+protected:
     std::list<Person*> persons;
 public:
     Container(const std::string&);
     bool containsRole(const Role& role) const;
+    Person* findPersonByName(std::string name);
 };
 
 

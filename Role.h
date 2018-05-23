@@ -5,7 +5,7 @@
 #ifndef POO2_LABO16_ROLE_H
 #define POO2_LABO16_ROLE_H
 
-
+#include <list>
 #include <string>
 
 class Container;

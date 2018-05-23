@@ -18,6 +18,12 @@ private:
     const std::list<Role> roles;
     std::string _name;
 public:
+    Person(std::string name, Role* role);
+
+    void addRole(Role* role) {
+
+    }
+
     /**
      * Checks if the person can drive
      * @return true if the person can drive
@@ -29,6 +35,9 @@ public:
      * @return true if the person is a holder of the role
      */
     bool hasRole(const Role& role) const;
+    bool hasRole(Role role) const;
+
+    const std::string getName() const;
 };
 
 
