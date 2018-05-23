@@ -6,7 +6,6 @@
 #define POO2_LABO16_CONTROLLER_H
 
 #include <list>
-#include "Person.h"
 #include "Bank.h"
 #include "Boat.h"
 

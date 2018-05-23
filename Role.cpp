@@ -8,8 +8,8 @@ const Role Role::MOTHER("mere",true, {(Role::THIEF, Role::POLICEMAN)}),
            Role::FATHER("pere", true, {(Role::THIEF, Role::POLICEMAN)}),
            Role::BOY("garcon", false, {(Role::THIEF, Role::POLICEMAN), (Role::MOTHER, Role::FATHER)}),
            Role::GIRL("fille", false, {(Role::THIEF, Role::POLICEMAN), (Role::FATHER, Role::MOTHER)}),
-           Role::POLICEMAN("policier", true, {FATHER::POLI}),
-           Role::THIEF("voleur", false);
+           Role::POLICEMAN("policier", true, {}),
+           Role::THIEF("voleur", false, {});
 
 std::string Role::name() {
     return _name;

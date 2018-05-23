@@ -16,7 +16,7 @@ private:
     std::list<Person*> persons;
 public:
     Container(const std::string&);
-    bool containsRole(const Role role) const;
+    bool containsRole(const Role& role) const;
 };
 
 
