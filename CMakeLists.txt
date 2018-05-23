@@ -3,5 +3,15 @@ project(POO2_Labo16)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Container.cpp Container.h Person.cpp Person.h Controller.cpp Controller.h Role.cpp Role.h)
-add_executable(POO2_Labo16 ${SOURCE_FILES})
+set(SOURCE_FILES
+        Container.cpp
+        Container.h
+        Controller.cpp
+        Controller.h
+        main.cpp
+        Person.cpp
+        Person.h
+        Role.cpp
+        Role.h)
+
+add_executable(POO2_Labo16 main.cpp Boat.cpp Boat.h Bank.cpp Bank.h)

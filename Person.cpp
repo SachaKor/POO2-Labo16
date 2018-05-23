@@ -5,7 +5,7 @@
 #include "Person.h"
 
 bool Person::canDrive(){
-    for(Role role : roles) {
+    for(auto role : roles) {
         if(role.driver()) {
             return true;
         }

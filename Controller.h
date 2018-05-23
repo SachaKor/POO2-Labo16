@@ -8,25 +8,27 @@
 class Controller {
 private:
     int turn;
-    std::list<Person> persons;
+    std::list<Person*> persons;
+
+    // containers
+    Bank* leftBank;
+    Bank* rightBank;
+    Boat* boat;
 
     // menu constants
     enum MenuOption {
-        PRINT,
-        EMBARK,
-        LAND,
-        MOVE,
-        RESET,
-        QUIT,
-        MENU
+        PRINT = 'p',
+        EMBARK = 'e',
+        LAND = 'd',
+        MOVE = 'm',
+        RESET = 'r',
+        QUIT = 'q',
+        MENU = 'h'
     };
 
 public:
-    Controller() {
-        persons.insert(new Person())
-    }
     void showMenu() const;
-    MenuOption getInput();
+    void executeCommand();
     void display();
     void nextTurn();
 };

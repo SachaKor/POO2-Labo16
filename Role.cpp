@@ -5,11 +5,11 @@
 #include "Role.h"
 
 const Role Role::MOTHER("mere",true),
-                 FATHER("pere", true),
-                 BOY("garcon", false),
-                 GIRL("fille", false),
-                 POLICEMAN("policier", true),
-                 THIEF("voleur", false);
+           Role::FATHER("pere", true),
+           Role::BOY("garcon", false),
+           Role::GIRL("fille", false),
+           Role::POLICEMAN("policier", true),
+           Role::THIEF("voleur", false);
 
 std::string Role::name() {
     return _name;

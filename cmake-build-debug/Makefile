@@ -123,113 +123,59 @@ POO2_Labo16/fast:
 	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/build
 .PHONY : POO2_Labo16/fast
 
-Container.o: Container.cpp.o
+Bank.o: Bank.cpp.o
 
-.PHONY : Container.o
-
-# target to build an object file
-Container.cpp.o:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Container.cpp.o
-.PHONY : Container.cpp.o
-
-Container.i: Container.cpp.i
-
-.PHONY : Container.i
-
-# target to preprocess a source file
-Container.cpp.i:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Container.cpp.i
-.PHONY : Container.cpp.i
-
-Container.s: Container.cpp.s
-
-.PHONY : Container.s
-
-# target to generate assembly for a file
-Container.cpp.s:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Container.cpp.s
-.PHONY : Container.cpp.s
-
-Controller.o: Controller.cpp.o
-
-.PHONY : Controller.o
+.PHONY : Bank.o
 
 # target to build an object file
-Controller.cpp.o:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Controller.cpp.o
-.PHONY : Controller.cpp.o
+Bank.cpp.o:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.o
+.PHONY : Bank.cpp.o
 
-Controller.i: Controller.cpp.i
+Bank.i: Bank.cpp.i
 
-.PHONY : Controller.i
+.PHONY : Bank.i
 
 # target to preprocess a source file
-Controller.cpp.i:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Controller.cpp.i
-.PHONY : Controller.cpp.i
+Bank.cpp.i:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.i
+.PHONY : Bank.cpp.i
 
-Controller.s: Controller.cpp.s
+Bank.s: Bank.cpp.s
 
-.PHONY : Controller.s
+.PHONY : Bank.s
 
 # target to generate assembly for a file
-Controller.cpp.s:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Controller.cpp.s
-.PHONY : Controller.cpp.s
+Bank.cpp.s:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.s
+.PHONY : Bank.cpp.s
 
-Person.o: Person.cpp.o
+Boat.o: Boat.cpp.o
 
-.PHONY : Person.o
+.PHONY : Boat.o
 
 # target to build an object file
-Person.cpp.o:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Person.cpp.o
-.PHONY : Person.cpp.o
+Boat.cpp.o:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.o
+.PHONY : Boat.cpp.o
 
-Person.i: Person.cpp.i
+Boat.i: Boat.cpp.i
 
-.PHONY : Person.i
-
-# target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Person.cpp.i
-.PHONY : Person.cpp.i
-
-Person.s: Person.cpp.s
-
-.PHONY : Person.s
-
-# target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Person.cpp.s
-.PHONY : Person.cpp.s
-
-Role.o: Role.cpp.o
-
-.PHONY : Role.o
-
-# target to build an object file
-Role.cpp.o:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Role.cpp.o
-.PHONY : Role.cpp.o
-
-Role.i: Role.cpp.i
-
-.PHONY : Role.i
+.PHONY : Boat.i
 
 # target to preprocess a source file
-Role.cpp.i:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Role.cpp.i
-.PHONY : Role.cpp.i
+Boat.cpp.i:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.i
+.PHONY : Boat.cpp.i
 
-Role.s: Role.cpp.s
+Boat.s: Boat.cpp.s
 
-.PHONY : Role.s
+.PHONY : Boat.s
 
 # target to generate assembly for a file
-Role.cpp.s:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Role.cpp.s
-.PHONY : Role.cpp.s
+Boat.cpp.s:
+	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.s
+.PHONY : Boat.cpp.s
 
 main.o: main.cpp.o
 
@@ -267,18 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... POO2_Labo16"
-	@echo "... Container.o"
-	@echo "... Container.i"
-	@echo "... Container.s"
-	@echo "... Controller.o"
-	@echo "... Controller.i"
-	@echo "... Controller.s"
-	@echo "... Person.o"
-	@echo "... Person.i"
-	@echo "... Person.s"
-	@echo "... Role.o"
-	@echo "... Role.i"
-	@echo "... Role.s"
+	@echo "... Bank.o"
+	@echo "... Bank.i"
+	@echo "... Bank.s"
+	@echo "... Boat.o"
+	@echo "... Boat.i"
+	@echo "... Boat.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

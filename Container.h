@@ -10,24 +10,11 @@
 
 class Container {
 private:
-    std::list<Person> persons;
     std::string name;
+    std::list<Person*> persons;
 public:
-    Container(std::string name);
+    Container(const std::string&);
 };
-
-class Bank : public Container {
-public:
-    Bank(std::string name);
-};
-
-class Boat : public Container {
-private:
-    Bank* bank;
-public:
-    Boat(std::string name);
-};
-
 
 
 

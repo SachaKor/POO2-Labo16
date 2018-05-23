@@ -15,9 +15,13 @@ private:
 
     static const Role MOTHER, FATHER, BOY, GIRL, POLICEMAN, THIEF;
 
+    Role(const std::string& name, bool canDrive);
+
+    // Deny the copies
+//    Role(const Role&) = delete;
+//    Role& operator=(const Role&) = delete;
 
 public:
-    Role(const std::string& name, bool canDrive);
     bool driver();
     std::string name();
 };

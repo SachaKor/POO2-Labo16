@@ -4,13 +4,7 @@
 
 #include "Container.h"
 
-Container::Container(std::string name) {
 
-}
+Container::Container(const std::string& name) : name(name) {}
 
-Boat::Boat(std::string name) : Container::Container(name) {
 
-}
-
-Bank::Bank(std::string name) : Container::Container(name) {
-}
