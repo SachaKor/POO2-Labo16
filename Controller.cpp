@@ -7,6 +7,11 @@
 
 #include "Controller.h"
 
+Controller::Controller() {
+    leftBank = new Bank("Left Bank");
+    rightBank = new Bank("Right Bank");
+    boat = new Boat("Boat");
+}
 
 void Controller::showMenu() const {
     std::cout << (char)PRINT << "      : afficher" << std::endl;
@@ -20,36 +25,44 @@ void Controller::showMenu() const {
 }
 
 void Controller::executeCommand() {
-    std::string input;
-    std::cin >> input;
-    switch (input[0]) {
-        case PRINT: {
-            display();
-            break;
-        }
-        case EMBARK: {
-            std::string nameToEmbark = input.substr(2,input.length());
-            //boat.emark(name);
-            break;
-        }
-        case LAND: {
-            std::string nameToLand = input.substr(2,input.length());
-            break;
-        }
-        case MOVE: {
-            break;
-        }
-        case RESET: {
-            break;
-        }
-        case QUIT: {
-            break;
-        }
-        case MENU: {
-            break;
-        }
-        default: {
-            break;
+    bool done = false;
+    while (!done) {
+        std::string input;
+        std::cin >> input;
+        switch (input[0]) {
+            case PRINT: {
+                display();
+                break;
+            }
+            case EMBARK: {
+                std::string nameToEmbark = input.substr(2, input.length());
+                Person *person = boat->findPersonByName(nameToEmbark);
+                if (person != nullptr)
+                    boat->embark(person);
+                else
+                    std::cout << "No person by that name" << std::endl;
+                break;
+            }
+            case LAND: {
+                std::string nameToLand = input.substr(2, input.length());
+                break;
+            }
+            case MOVE: {
+                break;
+            }
+            case RESET: {
+                break;
+            }
+            case QUIT: {
+                done = true;
+                break;
+            }
+            case MENU: {
+                break;
+            }
+            default: {
+                break;
+            }
         }
     }
 }
@@ -59,5 +72,9 @@ void Controller::display() {
 }
 
 void Controller::nextTurn() {
+
+}
+
+void Controller::addPerson(Person* person) {
 
 }

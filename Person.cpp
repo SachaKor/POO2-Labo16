@@ -4,6 +4,11 @@
 
 #include "Person.h"
 
+Person::Person(std::string name, Role* role) {
+    _name = name;
+    addRole(role);
+}
+
 bool Person::canDrive() const {
     for(auto role : roles) {
         if(role.driver()) {
@@ -20,4 +25,8 @@ bool Person::hasRole(Role role) const {
         }
     }
     return false;
+}
+
+const std::string Person::getName() const {
+    return _name;
 }
