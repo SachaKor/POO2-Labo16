@@ -9,8 +9,17 @@
 class Controller {
 private:
     int turn;
+
+    // menu constants
+    const std::string PRINT,
+               EMBARK,
+               LAND,
+               MOVE,
+               RESET,
+               QUIT,
+               MENU;
 public:
-    void showMenu();
+    void showMenu() const;
     void display();
     void nextTurm();
 };
