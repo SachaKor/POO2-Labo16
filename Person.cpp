@@ -3,6 +3,7 @@
 //
 
 #include "Person.h"
+#include "Role.h"
 
 Person::Person(std::string name, Role* role) {
     _name = name;

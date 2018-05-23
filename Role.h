@@ -5,10 +5,10 @@
 #ifndef POO2_LABO16_ROLE_H
 #define POO2_LABO16_ROLE_H
 
+class Container;
+
 #include <list>
 #include <string>
-
-class Container;
 
 class Role {
 private:
@@ -17,7 +17,7 @@ private:
 
     std::list<std::pair<Role, Role>> cantStayWith;
 
-    Role(const std::string& name, bool canDrive, std::list<std::pair<Role, Role>> cantStayWith);
+    Role(const std::string& name, bool canDrive, std::initializer_list<std::pair<Role, Role>> cantStayWith);
 
     // Deny the copies
 //    Role(const Role&) = delete;

@@ -5,9 +5,11 @@
 #ifndef POO2_LABO16_CONTROLLER_H
 #define POO2_LABO16_CONTROLLER_H
 
+class Person;
+class Bank;
+class Boat;
 #include <list>
-#include "Bank.h"
-#include "Boat.h"
+
 
 class Controller {
 private:

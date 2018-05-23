@@ -5,11 +5,10 @@
 #ifndef POO2_LABO16_PERSON_H
 #define POO2_LABO16_PERSON_H
 
+class Role;
 
 #include <string>
 #include <list>
-
-#include "Role.h"
 
 enum Gender {FEMALE, MALE};
 

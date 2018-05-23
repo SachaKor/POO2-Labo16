@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Controller.cpp"
+#include "Controller.h"
 
 int main() {
     Controller controller = Controller();

@@ -6,6 +6,9 @@
 #include <iostream>
 
 #include "Controller.h"
+#include "Person.h"
+#include "Bank.h"
+#include "Boat.h"
 
 Controller::Controller() {
     leftBank = new Bank("Left Bank");

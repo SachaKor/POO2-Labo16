@@ -5,10 +5,11 @@
 #ifndef POO2_LABO16_CONTAINER_H
 #define POO2_LABO16_CONTAINER_H
 
+class Person;
+class Role;
+
 #include <string>
 #include <list>
-#include "Person.h"
-#include "Role.h"
 
 class Container {
 private:
