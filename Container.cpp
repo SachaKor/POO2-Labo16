@@ -14,4 +14,5 @@ Person* Container::findPersonByName(std::string name) {
         if (person->getName().compare(name))
             return person;
     }
+    return nullptr;
 }

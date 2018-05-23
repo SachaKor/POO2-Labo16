@@ -4,12 +4,12 @@
 
 #include "Role.h"
 
-const Role Role::MOTHER("mere",true, {(Role::THIEF, Role::POLICEMAN)}),
-           Role::FATHER("pere", true, {(Role::THIEF, Role::POLICEMAN)}),
-           Role::BOY("garcon", false, {(Role::THIEF, Role::POLICEMAN), (Role::MOTHER, Role::FATHER)}),
-           Role::GIRL("fille", false, {(Role::THIEF, Role::POLICEMAN), (Role::FATHER, Role::MOTHER)}),
-           Role::POLICEMAN("policier", true, {}),
-           Role::THIEF("voleur", false, {});
+Role Role::POLICEMAN("policier", true, {});
+Role Role::THIEF("voleur", false, {});
+Role Role::MOTHER("mere",true, {std::make_pair(Role::THIEF, Role::POLICEMAN)});
+Role Role::FATHER("pere", true, {std::make_pair(Role::THIEF, Role::POLICEMAN)});
+Role Role::BOY("garcon", false, {std::make_pair(Role::THIEF, Role::POLICEMAN), std::make_pair(Role::MOTHER, Role::FATHER)});
+Role Role::GIRL("fille", false, {std::make_pair(Role::THIEF, Role::POLICEMAN), std::make_pair(Role::FATHER, Role::MOTHER)});
 
 std::string Role::name() {
     return _name;
@@ -21,11 +21,11 @@ bool Role::driver() {
 
 Role::Role(const std::string& name,
            bool canDrive,
-           std::list<std::pair<Role, Role>> cantStayWith) : _name(name),
-                                                            canDrive(canDrive),
-                                                            cantStayWith(cantStayWith) {}
+           std::initializer_list<std::pair<Role, Role>> cantStayWith) : _name(name),
+                                                                        canDrive(canDrive),
+                                                                        cantStayWith(cantStayWith) {}
 
-friend bool operator==(const Role& left, const Role& right) {
+bool operator==(const Role& left, const Role& right) {
     return left._name == right._name;
 }
 
