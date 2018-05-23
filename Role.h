@@ -7,7 +7,8 @@
 
 
 #include <string>
-#include "Container.h"
+
+class Container;
 
 class Role {
 private:
