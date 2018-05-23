@@ -5,23 +5,30 @@
 #ifndef POO2_LABO16_CONTROLLER_H
 #define POO2_LABO16_CONTROLLER_H
 
-
 class Controller {
 private:
     int turn;
+    std::list<Person> persons;
 
     // menu constants
-    const std::string PRINT,
-               EMBARK,
-               LAND,
-               MOVE,
-               RESET,
-               QUIT,
-               MENU;
+    enum MenuOption {
+        PRINT,
+        EMBARK,
+        LAND,
+        MOVE,
+        RESET,
+        QUIT,
+        MENU
+    };
+
 public:
+    Controller() {
+        persons.insert(new Person())
+    }
     void showMenu() const;
+    MenuOption getInput();
     void display();
-    void nextTurm();
+    void nextTurn();
 };
 
 

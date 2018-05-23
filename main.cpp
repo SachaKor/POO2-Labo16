@@ -1,6 +1,13 @@
 #include <iostream>
+#include "Container.cpp"
+#include "Controller.cpp"
+#include "Person.cpp"
+#include "Role.cpp"
 
-int main(){
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+int main() {
+    Controller controller = Controller();
+    controller.showMenu();
+
+
+    return EXIT_SUCCESS;
 }

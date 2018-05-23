@@ -15,8 +15,9 @@ private:
 
     static const Role MOTHER, FATHER, BOY, GIRL, POLICEMAN, THIEF;
 
-    Role(const std::string& name, bool canDrive);
+
 public:
+    Role(const std::string& name, bool canDrive);
     bool driver();
     std::string name();
 };

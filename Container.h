@@ -16,6 +16,11 @@ public:
     Container(std::string name);
 };
 
+class Bank : public Container {
+public:
+    Bank(std::string name);
+};
+
 class Boat : public Container {
 private:
     Bank* bank;
@@ -23,10 +28,7 @@ public:
     Boat(std::string name);
 };
 
-class Bank : public Container {
-public:
-    Bank(std::string name);
-};
+
 
 
 #endif //POO2_LABO16_CONTAINER_H
