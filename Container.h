@@ -6,7 +6,9 @@
 #define POO2_LABO16_CONTAINER_H
 
 #include <string>
+#include <list>
 #include "Person.h"
+#include "Role.h"
 
 class Container {
 private:
@@ -14,6 +16,7 @@ private:
     std::list<Person*> persons;
 public:
     Container(const std::string&);
+    bool containsRole(const Role role) const;
 };
 
 

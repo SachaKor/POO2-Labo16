@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Bank.h
+Container.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Container.h
+
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Boat.h
+Container.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Container.h
+
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Container.h
+string
+-
+list
+-
+Person.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Person.h
+Role.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Role.h
+
 /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Controller.cpp
 sstream
 -
@@ -15,6 +33,28 @@ Controller.h
 /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Controller.h
 
 /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Controller.h
+list
+-
+Person.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Person.h
+Bank.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Bank.h
+Boat.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Boat.h
+
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Person.h
+string
+-
+list
+-
+Role.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Role.h
+
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Role.h
+string
+-
+Container.h
+/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Container.h
 
 /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/main.cpp
 iostream

@@ -14,4 +14,4 @@ set(SOURCE_FILES
         Role.cpp
         Role.h)
 
-add_executable(POO2_Labo16 main.cpp Boat.cpp Boat.h Bank.cpp Bank.h)
+add_executable(POO2_Labo16 main.cpp)

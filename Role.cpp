@@ -4,11 +4,11 @@
 
 #include "Role.h"
 
-const Role Role::MOTHER("mere",true),
-           Role::FATHER("pere", true),
-           Role::BOY("garcon", false),
-           Role::GIRL("fille", false),
-           Role::POLICEMAN("policier", true),
+const Role Role::MOTHER("mere",true, {(Role::THIEF, Role::POLICEMAN)}),
+           Role::FATHER("pere", true, {(Role::THIEF, Role::POLICEMAN)}),
+           Role::BOY("garcon", false, {(Role::THIEF, Role::POLICEMAN), (Role::MOTHER, Role::FATHER)}),
+           Role::GIRL("fille", false, {(Role::THIEF, Role::POLICEMAN), (Role::FATHER, Role::MOTHER)}),
+           Role::POLICEMAN("policier", true, {FATHER::POLI}),
            Role::THIEF("voleur", false);
 
 std::string Role::name() {
@@ -19,4 +19,16 @@ bool Role::driver() {
     return canDrive;
 }
 
-Role::Role(const std::string& name, bool canDrive) : _name(name), canDrive(canDrive) {}
+Role::Role(const std::string& name,
+           bool canDrive,
+           std::list<std::pair<Role, Role>> cantStayWith) : _name(name),
+                                                            canDrive(canDrive),
+                                                            cantStayWith(cantStayWith) {}
+
+friend bool operator==(const Role& left, const Role& right) {
+    return left._name == right._name;
+}
+
+bool Role::cannotStayWith(const Role& role, const Container& container) const {
+    return false;
+}

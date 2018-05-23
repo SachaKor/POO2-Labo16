@@ -7,15 +7,16 @@
 
 
 #include <string>
+#include "Container.h"
 
 class Role {
 private:
     std::string _name;
     bool canDrive;
 
-    static const Role MOTHER, FATHER, BOY, GIRL, POLICEMAN, THIEF;
+    std::list<std::pair<Role, Role>> cantStayWith;
 
-    Role(const std::string& name, bool canDrive);
+    Role(const std::string& name, bool canDrive, std::list<std::pair<Role, Role>> cantStayWith);
 
     // Deny the copies
 //    Role(const Role&) = delete;
@@ -24,6 +25,23 @@ private:
 public:
     bool driver();
     std::string name();
+    static const Role MOTHER, FATHER, BOY, GIRL, POLICEMAN, THIEF;
+
+    /**
+     * Checks if the current role holder can stay with a holder of another role in the container
+     * @param role the role to check
+     * @param container the container where the role holders stay
+     * @return true if the holder of the current role can NOT stay with another one
+     */
+    bool cannotStayWith(const Role& role, const Container& container) const;
+
+    /**
+     * Checks if the roles are equal
+     * @param left the first role
+     * @param right the second role
+     * @return true if the roles are equal
+     */
+    friend bool operator==(const Role& left, const Role& right);
 };
 
 

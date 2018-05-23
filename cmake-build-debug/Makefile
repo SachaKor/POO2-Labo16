@@ -123,60 +123,6 @@ POO2_Labo16/fast:
 	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/build
 .PHONY : POO2_Labo16/fast
 
-Bank.o: Bank.cpp.o
-
-.PHONY : Bank.o
-
-# target to build an object file
-Bank.cpp.o:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.o
-.PHONY : Bank.cpp.o
-
-Bank.i: Bank.cpp.i
-
-.PHONY : Bank.i
-
-# target to preprocess a source file
-Bank.cpp.i:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.i
-.PHONY : Bank.cpp.i
-
-Bank.s: Bank.cpp.s
-
-.PHONY : Bank.s
-
-# target to generate assembly for a file
-Bank.cpp.s:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.s
-.PHONY : Bank.cpp.s
-
-Boat.o: Boat.cpp.o
-
-.PHONY : Boat.o
-
-# target to build an object file
-Boat.cpp.o:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.o
-.PHONY : Boat.cpp.o
-
-Boat.i: Boat.cpp.i
-
-.PHONY : Boat.i
-
-# target to preprocess a source file
-Boat.cpp.i:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.i
-.PHONY : Boat.cpp.i
-
-Boat.s: Boat.cpp.s
-
-.PHONY : Boat.s
-
-# target to generate assembly for a file
-Boat.cpp.s:
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.s
-.PHONY : Boat.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,12 +159,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... POO2_Labo16"
-	@echo "... Bank.o"
-	@echo "... Bank.i"
-	@echo "... Bank.s"
-	@echo "... Boat.o"
-	@echo "... Boat.i"
-	@echo "... Boat.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

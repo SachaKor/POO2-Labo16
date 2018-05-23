@@ -7,4 +7,8 @@
 
 Container::Container(const std::string& name) : name(name) {}
 
+bool containsRole(const Role role) const {
+    return false;
+}
+
 

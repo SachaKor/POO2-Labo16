@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/POO2_Labo16.dir/main.cpp.o"
-  "CMakeFiles/POO2_Labo16.dir/Boat.cpp.o"
-  "CMakeFiles/POO2_Labo16.dir/Bank.cpp.o"
   "POO2_Labo16.pdb"
   "POO2_Labo16"
 )

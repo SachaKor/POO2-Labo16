@@ -29,7 +29,7 @@ void Controller::executeCommand() {
         }
         case EMBARK: {
             std::string nameToEmbark = input.substr(2,input.length());
-            boat.emark(name);
+            //boat.emark(name);
             break;
         }
         case LAND: {

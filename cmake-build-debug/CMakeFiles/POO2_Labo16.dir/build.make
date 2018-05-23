@@ -81,69 +81,17 @@ CMakeFiles/POO2_Labo16.dir/main.cpp.o.provides: CMakeFiles/POO2_Labo16.dir/main.
 CMakeFiles/POO2_Labo16.dir/main.cpp.o.provides.build: CMakeFiles/POO2_Labo16.dir/main.cpp.o
 
 
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.o: CMakeFiles/POO2_Labo16.dir/flags.make
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.o: ../Boat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/POO2_Labo16.dir/Boat.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POO2_Labo16.dir/Boat.cpp.o -c /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Boat.cpp
-
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Labo16.dir/Boat.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Boat.cpp > CMakeFiles/POO2_Labo16.dir/Boat.cpp.i
-
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Labo16.dir/Boat.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Boat.cpp -o CMakeFiles/POO2_Labo16.dir/Boat.cpp.s
-
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.requires:
-
-.PHONY : CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.requires
-
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.provides: CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.requires
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.provides.build
-.PHONY : CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.provides
-
-CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.provides.build: CMakeFiles/POO2_Labo16.dir/Boat.cpp.o
-
-
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.o: CMakeFiles/POO2_Labo16.dir/flags.make
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.o: ../Bank.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/POO2_Labo16.dir/Bank.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/POO2_Labo16.dir/Bank.cpp.o -c /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Bank.cpp
-
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO2_Labo16.dir/Bank.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Bank.cpp > CMakeFiles/POO2_Labo16.dir/Bank.cpp.i
-
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO2_Labo16.dir/Bank.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/Bank.cpp -o CMakeFiles/POO2_Labo16.dir/Bank.cpp.s
-
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.requires:
-
-.PHONY : CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.requires
-
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.provides: CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.requires
-	$(MAKE) -f CMakeFiles/POO2_Labo16.dir/build.make CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.provides.build
-.PHONY : CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.provides
-
-CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.provides.build: CMakeFiles/POO2_Labo16.dir/Bank.cpp.o
-
-
 # Object files for target POO2_Labo16
 POO2_Labo16_OBJECTS = \
-"CMakeFiles/POO2_Labo16.dir/main.cpp.o" \
-"CMakeFiles/POO2_Labo16.dir/Boat.cpp.o" \
-"CMakeFiles/POO2_Labo16.dir/Bank.cpp.o"
+"CMakeFiles/POO2_Labo16.dir/main.cpp.o"
 
 # External object files for target POO2_Labo16
 POO2_Labo16_EXTERNAL_OBJECTS =
 
 POO2_Labo16: CMakeFiles/POO2_Labo16.dir/main.cpp.o
-POO2_Labo16: CMakeFiles/POO2_Labo16.dir/Boat.cpp.o
-POO2_Labo16: CMakeFiles/POO2_Labo16.dir/Bank.cpp.o
 POO2_Labo16: CMakeFiles/POO2_Labo16.dir/build.make
 POO2_Labo16: CMakeFiles/POO2_Labo16.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable POO2_Labo16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Sashok/Documents/2017-2018/S4/POO2/POO2-labos/POO2-Labo16/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable POO2_Labo16"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/POO2_Labo16.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -152,8 +100,6 @@ CMakeFiles/POO2_Labo16.dir/build: POO2_Labo16
 .PHONY : CMakeFiles/POO2_Labo16.dir/build
 
 CMakeFiles/POO2_Labo16.dir/requires: CMakeFiles/POO2_Labo16.dir/main.cpp.o.requires
-CMakeFiles/POO2_Labo16.dir/requires: CMakeFiles/POO2_Labo16.dir/Boat.cpp.o.requires
-CMakeFiles/POO2_Labo16.dir/requires: CMakeFiles/POO2_Labo16.dir/Bank.cpp.o.requires
 
 .PHONY : CMakeFiles/POO2_Labo16.dir/requires
 
