@@ -5,7 +5,7 @@
 #include "Role.h"
 #include "Container.h"
 
-const Role Role::POLICEMAN("policier", true, {}),
+const Role Role::POLICEMAN("policier", true, {}), 
            Role::THIEF("voleur", false, {}),
            Role::MOTHER("mere",true, {{Role::THIEF, Role::POLICEMAN}, {Role::THIEF, Role::POLICEMAN}}),
            Role::FATHER("pere", true, {{Role::THIEF, Role::POLICEMAN}, {Role::THIEF, Role::POLICEMAN}}),
